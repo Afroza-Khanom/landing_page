@@ -94,6 +94,13 @@
     border-radius: 6px;
     margin-bottom: 35px;
 }
+
+/* Responsive */
+@media(max-width:768){
+    .container { 
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
 /* section for Features */
 
 .container-2{
@@ -154,12 +161,20 @@
     margin-top: 50px;
     /* padding-left: 30px;
     padding-right: 30px; */
+    width: 200px;
     padding: 30px;
     box-sizing: border-box;
     border:#FF900E solid 1px;
     text-align: center;
     color:rgba(44, 42, 41, 0.849);
+    transition:width 2s, transform 2s;
 }
+.facts-icon .facts-item .facts:hover{
+    width:250px;
+    height:250px;
+    transform:rotate(360deg);
+}
+
 
 /* sponser section */
 
