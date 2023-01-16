@@ -46,3 +46,51 @@
     display: flex;
     justify-content: center;
 }
+
+ /* section for quick list  */
+
+ .container{
+    padding-top:36px;
+    padding-left: 50px;
+    margin-left: 100px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 164px 164px 164px 164px 300px;
+    gap:1rem;
+    place-items: center;
+    grid-template-areas: 
+    "a a b b  e e e e"
+    "a a b b  e e e e"
+    "c c d d  e e e e"
+    "c c d d  e e e e";
+}
+.container .box{
+    height:48vh;
+}
+.box-1{
+    grid-area: a;
+}
+.box-2{
+    grid-area: b;
+}
+.box-3{
+    grid-area: c;
+}
+.box-4{
+    grid-area: d;
+}
+.box-5{
+    grid-area: e;
+    font-size:20px;
+    padding: 10px;
+}
+
+.container .box-5 button{
+    background-color:#FF900E;
+    color:aliceblue;
+    padding: 20px;
+    font-size: 17px;
+    border-style: none;
+    border-radius: 6px;
+    margin-bottom: 35px;
+}
