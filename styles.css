@@ -85,7 +85,7 @@
     padding: 10px;
 }
 
-.container .box-5 button{
+.container .box-5 button, .container-2 button{
     background-color:#FF900E;
     color:aliceblue;
     padding: 20px;
@@ -93,4 +93,55 @@
     border-style: none;
     border-radius: 6px;
     margin-bottom: 35px;
+}
+/* section for Features */
+
+.container-2{
+    height: 400px;
+    width: 100%;
+    margin: 100px;
+    position: center;
+}
+.container-2 .item-1{
+    float: left;
+    width: 40%;
+    padding-left: 30px;
+}
+.container-2 .item-2{
+    float: right;
+    width: 50%;
+    padding-right: 30px;
+    margin-right: 60px;
+}
+.container-2 .item-1 h1{
+    font-size: 40px;
+}
+.container-2 .item-1 p{
+    font-weight: 300;
+    color:rgba(44, 42, 41, 0.582);
+    width: 70%;
+}
+.container-2 .item-1 .con-box{
+    box-sizing: border-box;
+    height: 150px;
+    width: 600px;
+    padding: 2px;
+    margin: 8px;
+    border: #fdfdfc solid 1px;
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.container-2 button{
+    font-size: 40px;
+    position: absolute;
+    margin-top: 800px;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+/* facts icons section  */
+
+.facts-icon .facts-header{
+    margin-top: 350px;
 }
